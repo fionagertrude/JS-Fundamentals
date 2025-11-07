@@ -1,5 +1,10 @@
-const myVar = "JavaScript is amazing!";
+const myVar = "JavaScript is amazing";
 console.log(myVar); 
-// Output:
+
+//run the code
+//node 0-javascript_is_amazing.js
+
+
+// Output: 
 // JavaScript is amazing
 

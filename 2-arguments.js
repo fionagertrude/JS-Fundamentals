@@ -1,16 +1,18 @@
 const args = process.argv.slice(2);
 
 if (args.length === 0) {
-    console.log("No arguments provided.");
+  console.log("No argument");
 } else if (args.length === 1) {
-    console.log(`One argument provided: ${args[0]}`);
+  console.log("Argument found");
 } else {
-    console.log(`Two arguments provided: ${args[0]} and ${args[1]}`);
+  console.log("Arguments found");
 }
+
 //to run it
 // node 2-arguments.js 
-// output: No argument provided.
+// output: No argument
 // node 2-arguments.js first 
-// output: One Argument provided: first
+// output: Argument found
 // node 2-arguments.js second 
-// output: Two arguments provided: second and third
+// output: Arguments found
+
