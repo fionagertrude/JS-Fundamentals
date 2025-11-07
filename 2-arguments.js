@@ -7,3 +7,7 @@ if (args.length === 0) {
 } else {
     console.log(`Two arguments provided: ${args[0]} and ${args[1]}`);
 }
+// Example Outputs:
+// No arguments provided.
+// One argument provided: arg1
+// Two arguments provided: arg1 and arg2
